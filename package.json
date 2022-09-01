@@ -1,0 +1,36 @@
+{
+  "name": "newnodetask",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Application for storing movies and users registration",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm -r dotenv/config app",
+    "lint": "eslint -c .eslintrc.yml --ext ,.js ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "express-async-router": "^0.1.15",
+    "express-joi-validation": "^5.0.1",
+    "express-promise-router": "^4.1.1",
+    "express-validator": "^6.14.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4",
+    "sequelize-auto-migrations": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}
